@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "aluminiummod:color_aluminium_block_0"
+    },
+    "color=orange": {
+      "model": "aluminiummod:color_aluminium_block_1"
+    },
+    "color=magenta": {
+      "model": "aluminiummod:color_aluminium_block_2"
+    },
+    "color=light_blue": {
+      "model": "aluminiummod:color_aluminium_block_3"
+    },
+    "color=yellow": {
+      "model": "aluminiummod:color_aluminium_block_4"
+    },
+    "color=lime": {
+      "model": "aluminiummod:color_aluminium_block_5"
+    },
+    "color=pink": {
+      "model": "aluminiummod:color_aluminium_block_6"
+    },
+    "color=gray": {
+      "model": "aluminiummod:color_aluminium_block_7"
+    },
+    "color=silver": {
+      "model": "aluminiummod:color_aluminium_block_8"
+    },
+    "color=cyan": {
+      "model": "aluminiummod:color_aluminium_block_9"
+    },
+    "color=purple": {
+      "model": "aluminiummod:color_aluminium_block_10"
+    },
+    "color=blue": {
+      "model": "aluminiummod:color_aluminium_block_11"
+    },
+    "color=brown": {
+      "model": "aluminiummod:color_aluminium_block_12"
+    },
+    "color=green": {
+      "model": "aluminiummod:color_aluminium_block_13"
+    },
+    "color=red": {
+      "model": "aluminiummod:color_aluminium_block_14"
+    },
+    "color=black": {
+      "model": "aluminiummod:color_aluminium_block_15"
+    }
+  }
+}

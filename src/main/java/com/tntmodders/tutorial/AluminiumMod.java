@@ -1,9 +1,11 @@
 package com.tntmodders.tutorial;
+
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.item.ItemCloth;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -27,6 +29,7 @@ public class AluminiumMod {
     public static final Item ALUMINIUM = new ItemAluminium();
     public static final Block ALUMINIUM_BLOCK = new BlockAluminium();
     public static final Item COLOR_ALUMINIUM = new ItemColorAluminium();
+    public static final Block COLOR_ALUMINIUM_BLOCK = new BlockColorAluminium();
     public static final AluminiumRecipeHolder HOLDER = new AluminiumRecipeHolder();
     @Mod.Instance("aluminiummod")
     public static AluminiumMod aluminiumInstance;
@@ -41,11 +44,13 @@ public class AluminiumMod {
         event.getRegistry().register(ALUMINIUM);
         event.getRegistry().register(COLOR_ALUMINIUM);
         event.getRegistry().register(new ItemBlock(ALUMINIUM_BLOCK).setRegistryName("aluminiummod", "aluminium_block"));
+        event.getRegistry().register(new ItemCloth(COLOR_ALUMINIUM_BLOCK).setRegistryName("aluminiummod", "color_aluminium_block"));
     }
 
     @SubscribeEvent
     public void registerBlocks(RegistryEvent.Register<Block> event) {
         event.getRegistry().register(ALUMINIUM_BLOCK);
+        event.getRegistry().register(COLOR_ALUMINIUM_BLOCK);
     }
 
     @SubscribeEvent
@@ -56,6 +61,7 @@ public class AluminiumMod {
         //メタデータの分だけモデルを登録する。
         for (int i = 0; i < 16; i++) {
             ModelLoader.setCustomModelResourceLocation(COLOR_ALUMINIUM, i, new ModelResourceLocation(new ResourceLocation("aluminiummod", "color_aluminium_" + i), "inventory"));
+            ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(COLOR_ALUMINIUM_BLOCK), i, new ModelResourceLocation(new ResourceLocation("aluminiummod", "color_aluminium_block_" + i), "inventory"));
         }
     }
 

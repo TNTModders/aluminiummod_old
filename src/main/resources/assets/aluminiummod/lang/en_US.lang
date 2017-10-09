@@ -1,4 +1,4 @@
-#AluminiumMod English Langage File
+#AluminiumMod English Language File
 item.aluminium.name=aluminium
 tile.aluminium_block.name=aluminium block
 item.color_aluminium.0.name=white colored aluminium
@@ -17,3 +17,19 @@ item.color_aluminium.12.name=brown colored aluminium
 item.color_aluminium.13.name=green colored aluminium
 item.color_aluminium.14.name=red colored aluminium
 item.color_aluminium.15.name=black colored aluminium
+tile.color_aluminium_block.0.name=white colored aluminium block
+tile.color_aluminium_block.1.name=orange colored aluminium block
+tile.color_aluminium_block.2.name=magenta colored aluminium block
+tile.color_aluminium_block.3.name=light blue colored aluminium block
+tile.color_aluminium_block.4.name=yellow colored aluminium block
+tile.color_aluminium_block.5.name=lime colored aluminium block
+tile.color_aluminium_block.6.name=pink colored aluminium block
+tile.color_aluminium_block.7.name=gray colored aluminium block
+tile.color_aluminium_block.8.name=sliver colored aluminium block
+tile.color_aluminium_block.9.name=cyan colored aluminium block
+tile.color_aluminium_block.10.name=purple colored aluminium block
+tile.color_aluminium_block.11.name=blue colored aluminium block
+tile.color_aluminium_block.12.name=brown colored aluminium block
+tile.color_aluminium_block.13.name=green colored aluminium block
+tile.color_aluminium_block.14.name=red colored aluminium block
+tile.color_aluminium_block.15.name=black colored aluminium block
