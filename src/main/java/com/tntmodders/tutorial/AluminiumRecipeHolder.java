@@ -129,7 +129,6 @@ public class AluminiumRecipeHolder {
     }
 
     public static class ItemStackHashMap<K extends ItemStack, V extends List<ResourceLocation>> extends HashMap<K, V> {
-
         @Override
         public V get(Object key) {
             if (key instanceof ItemStack && this.containsKey(key)) {

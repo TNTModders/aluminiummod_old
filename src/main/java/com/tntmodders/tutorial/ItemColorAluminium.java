@@ -9,7 +9,6 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ItemColorAluminium extends Item {
-
     public ItemColorAluminium() {
         super();
         this.setRegistryName("aluminiummod", "color_aluminium");
