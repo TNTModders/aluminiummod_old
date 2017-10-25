@@ -33,3 +33,7 @@ tile.color_aluminium_block.12.name=brown colored aluminium block
 tile.color_aluminium_block.13.name=green colored aluminium block
 tile.color_aluminium_block.14.name=red colored aluminium block
 tile.color_aluminium_block.15.name=black colored aluminium block
+advancements.aluminiummod.root.title=Aluminium MOD
+advancements.aluminiummod.block.title=Got an Aluminium Block
+advancements.aluminiummod.root.desc=this is test advancement
+advancements.aluminiummod.block.desc=also another test desc

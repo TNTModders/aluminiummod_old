@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "aluminiummod:aluminium_block"
+    },
+    "title": {
+      "translate": "advancements.aluminiummod.block.title"
+    },
+    "description": {
+      "translate": "advancements.aluminiummod.block.desc"
+    }
+  },
+  "parent": "aluminiummod:root",
+  "criteria": {
+    "creeperbomb": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "aluminiummod:aluminium_block"
+          }
+        ]
+      }
+    }
+  }
+}

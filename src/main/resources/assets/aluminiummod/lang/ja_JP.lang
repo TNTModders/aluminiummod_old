@@ -33,3 +33,7 @@ tile.color_aluminium.block.12.name=茶色アルミニウムブロック
 tile.color_aluminium.block.13.name=緑色アルミニウムブロック
 tile.color_aluminium.block.14.name=赤色アルミニウムブロック
 tile.color_aluminium.block.15.name=黒色アルミニウムブロック
+advancements.aluminiummod.root.title=アルミニウムMOD
+advancements.aluminiummod.block.title=アルミニウムブロックの入手
+advancements.aluminiummod.root.desc=チュートリアルMOD
+advancements.aluminiummod.block.desc=進捗どうですか
